@@ -1,13 +1,15 @@
 import React from 'react'
-import Navbar from './Navbar'
 import './Home.css'
-import Hero from './Hero'
+import Navbar from '../navbar/Navbar'
+import Hero from '../hero/Hero'
+import Translate from '../translate/Translate'
 
 const Home = () => {
   return (
     <div className='home'>
       <Navbar/>
-      <Hero/>
+      {/* <Hero/> */}
+      <Translate/>
     </div>
   )
 }
